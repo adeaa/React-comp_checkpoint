@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import ProfilePicture from './Component/Profile/ProfilePicture'
 import FullName from './Component/Profile/FullName.js'
 import Adress from './Component/Profile/Adress.js'
-
+// renaming this root component to App.js raises an error 'index.js not found'
 ReactDOM.render(
   <React.StrictMode>
     <ProfilePicture />
